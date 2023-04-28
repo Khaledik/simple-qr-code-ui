@@ -13,12 +13,12 @@
 }
 
 body{
-    min-height: 100vh;
     background: var(--body-color) ;
     font-family: "Outfit", sans-serif;
 }
 
 main {
+    min-height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
