@@ -13,9 +13,19 @@
 }
 
 body{
+    
     background: var(--body-color) ;
     font-family: "Outfit", sans-serif;
 }
+
+main {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .card{
     display: flex;
@@ -23,7 +33,6 @@ body{
     align-items: center;
     width: 20rem;
     background: var(--white);
-    margin: 3.125rem  auto;
     padding: .9375rem;
     border-radius: .9375rem;
 }
