@@ -13,17 +13,13 @@
 }
 
 body{
-    
-    background: var(--body-color) ;
-    font-family: "Outfit", sans-serif;
-}
-
-main {
-    height: 95vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: var(--body-color) ;
+    font-family: "Outfit", sans-serif;
 }
 
 
@@ -34,7 +30,9 @@ main {
     width: 20rem;
     background: var(--white);
     padding: .9375rem;
+    margin-bottom: 3.125rem;
     border-radius: .9375rem;
+    box-shadow: -7px 10px 15px 0px rgba(0,0,0,0.05);
 }
 
 .card__qrcode{
